@@ -1,127 +1,51 @@
 {
-  "register": {
-    "ok": true,
-    "message": "회원가입 성공"
-  },
   "login": {
-    "result": {
-      "ok": true,
-      "user": {
-        "nickname": "랄라",
-        "userId": 4
-      }
+    "user": {
+      "userId": 1,
+      "nickname": "랄라"
     }
   },
-  "menu": {
-    "ok": true,
-    "menu-list": [
-      {
-        "name": "샌드위치",
-        "id": 1,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8SBqGpS3Ylo4qrMgF7wglEBo5FVCxLeOUsQ&usqp=CAU"
-      },
-      {
-        "name": "짜장면",
-        "id": 2,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi9IeNQCuHe-lJHu_8Hfl5e02Rxalz1ouD_g&usqp=CAU"
-      },
-      {
-        "name": "피자",
-        "id": 3,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThFANwvf7DYVnUIcXPMkUQ7A7sBuw82F8TYg&usqp=CAU"
-      },
-      {
-        "name": "치킨",
-        "id": 3,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUGRVOJQtFiBak_s_L-4Mtia8Udw512bPyw&usqp=CAU"
-      }
-    ]
-  },
-  "menu_id_like": {
-    "ok": true,
-    "message": "좋아요 성공!"
-  },
-  "menu_like": {
-    "ok": true,
-    "message": "순위 불러오기 성공",
-    "result": [
-      {
-        "name": "샌드위치",
-        "id": 1,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8SBqGpS3Ylo4qrMgF7wglEBo5FVCxLeOUsQ&usqp=CAU"
-      },
-      {
-        "name": "짜장면",
-        "id": 2,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi9IeNQCuHe-lJHu_8Hfl5e02Rxalz1ouD_g&usqp=CAU"
-      },
-      {
-        "name": "피자",
-        "id": 3,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThFANwvf7DYVnUIcXPMkUQ7A7sBuw82F8TYg&usqp=CAU"
-      },
-      {
-        "name": "치킨",
-        "id": 3,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUGRVOJQtFiBak_s_L-4Mtia8Udw512bPyw&usqp=CAU"
-      },
-      {
-        "name": "냉면",
-        "id": 4,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStwK_ITGq7BH2lhobirEHPLF5Zx-4bEo-ZWEQsxglKvMOAtMbaPsP4ZaBYtw&usqp=CAc"
-      },
-      {
-        "name": "김치볶음밥",
-        "id": 5,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQQ7Yy6cHJq1H9MQmexpdfWuA0rVQ7GVLeNA&usqp=CAU"
-      }
-    ]
-  },
-  "menu_id": {
-    "ok": true,
-    "message": "메뉴 상세 가져오기 성공",
-    "result": {
-      "name": "메뉴이름",
-      "img": "메뉴이미지",
-      "category1": "카테고리",
-      "category2": "카테고리",
-      "category3": "카테고리",
-      "User": {
-        "id": 1,
-        "nickName": "나나나"
-      }
+
+  "menu": [
+    {
+      "id": 1,
+      "name": "샌드위치",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8SBqGpS3Ylo4qrMgF7wglEBo5FVCxLeOUsQ&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "name": "짜장면",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi9IeNQCuHe-lJHu_8Hfl5e02Rxalz1ouD_g&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "name": "피자",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThFANwvf7DYVnUIcXPMkUQ7A7sBuw82F8TYg&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "name": "치킨",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUGRVOJQtFiBak_s_L-4Mtia8Udw512bPyw&usqp=CAU"
     }
-  },
-  "post_menu": {
-    "ok": true,
-    "message": "메뉴등록 성공!",
-    "menuId": 24
-  },
-  "patch_menu": {
-    "ok": true,
-    "message": "메뉴수정 성공!"
-  },
-  "delete_menu": {
-    "ok": true,
-    "message": "메뉴삭제 성공!"
-  },
-  "comments": {
-    "result": [
-      {
-        "comment": "와 맛있겠다",
-        "nickname": "배달의 민족",
-        "menuId": 12
-      },
-      {
-        "comment": "부럽다",
-        "nickname": "쿠팡잇츠",
-        "menuId": 2
-      },
-      {
-        "comment": "다음에 저랑 같이먹어요!",
-        "nickname": "요기요",
-        "menuId": 3
-      }
-    ]
-  }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "menuId": 12,
+      "comment": "와 맛있겠다",
+      "nickname": "배달의 민족"
+    },
+    {
+      "id": 2,
+      "menuId": 2,
+      "comment": "부럽다",
+      "nickname": "쿠팡잇츠"
+    },
+    {
+      "id": 3,
+      "menuId": 3,
+      "comment": "다음에 저랑 같이먹어요!",
+      "nickname": "요기요"
+    }
+  ]
 }
